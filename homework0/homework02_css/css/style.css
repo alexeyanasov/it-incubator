@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/opensans/opensans.ttf");
+}
+
+body{
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    background-color: lightgray;
+
+    font-family: "Open Sans", serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+*:first-child{
+    margin: 10px;
+}
+
+h1{
+    font-size: 25px;
+    color: green;
+    line-height: 1.5;
+    letter-spacing: 20px;
+}
+
+h2{
+    font-size: 20px;
+    color: rebeccapurple;
+    line-height: 1.2;
+    letter-spacing: 13px;
+}
+
+img{
+    width: 250px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+}
+
+.text{
+    width: 700px;
+}
+
+select{
+    padding: 10px;
+    width: 200px;
+    background-color: black;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-image: url('http://basicweb.ru/images/mini5.png');
+}
+
+ul > li:first-child{
+    color: yellow;
+}
+
+ol > li:nth-child(2){
+    color: yellow;
+}
+
+.input-text{
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.input-text:hover{
+    border: 1px solid red;
+}
+
+.input-text:focus{
+    border: 1px solid salmon;
+}
+
+a{
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+table{
+    background-color: yellowgreen;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+th{
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
